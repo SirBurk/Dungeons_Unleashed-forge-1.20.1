@@ -30,17 +30,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE);
 
 
-
+//granite brick
         slabBlock((SlabBlock) ModBlocks.GRANITE_BRICK_SLAB.get(), blockLoc(ModBlocks.GRANITE_BRICKS),
         blockLoc(ModBlocks.GRANITE_BRICKS));
-        //slabBlock((SlabBlock) AZALEA_SLAB.get(), blockLoc(AZALEA_PLANKS),
-        //blockLoc(AZALEA_PLANKS));
 
         stairsBlock((StairBlock) ModBlocks.GRANITE_BRICK_STAIRS.get(), blockLoc(ModBlocks.GRANITE_BRICKS));
-        //stairsBlock((StairBlock) CRACKED_STONE_BRICK_STAIRS.get(), blockTexture(Blocks.CRACKED_STONE_BRICKS));
 
-        //vanillaWallBlock(SMOOTH_STONE_WALL, blockVanillaBlockLoc(Blocks.SMOOTH_STONE));
         modWallBlock(ModBlocks.GRANITE_BRICK_WALL, blockLoc(ModBlocks.GRANITE_BRICKS));
+
+//cut polished granite
+        slabBlock((SlabBlock) ModBlocks.CUT_POLISHED_GRANITE_SLAB.get(), blockLoc(ModBlocks.CUT_POLISHED_GRANITE),
+                blockLoc(ModBlocks.CUT_POLISHED_GRANITE));
+
+        stairsBlock((StairBlock) ModBlocks.CUT_POLISHED_GRANITE_STAIRS.get(), blockLoc(ModBlocks.CUT_POLISHED_GRANITE));
+
+        modWallBlock(ModBlocks.CUT_POLISHED_GRANITE_WALL, blockLoc(ModBlocks.CUT_POLISHED_GRANITE));
 
     }
     private void trapDoorBlockItem(RegistryObject<Block> blockRegistryObject, String appendix) {

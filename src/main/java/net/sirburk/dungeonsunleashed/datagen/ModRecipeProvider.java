@@ -110,6 +110,38 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICK_WALL.get())
                 .unlockedBy("has_polished_granite", has(Blocks.POLISHED_GRANITE))
                 .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "granite_brick_wall_from_stonecutting_from_polished_granite"));
+        //cut polished granite wall from cut polished granite crafting
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_POLISHED_GRANITE_WALL.get(),6)
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModBlocks.CUT_POLISHED_GRANITE.get())
+                .unlockedBy("has_cut_polished_granite", has(ModBlocks.CUT_POLISHED_GRANITE.get()))
+                .save(consumer);
+//cut polished granite wall from polished granite stonecutting
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GRANITE_BRICKS.get()), RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICK_WALL.get())
+                .unlockedBy("has_granite_bricks", has(ModBlocks.GRANITE_BRICKS.get()))
+                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "granite_brick_wall_from_stonecutting"));
+//cut polished granite wall from granite stonecutting
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICK_WALL.get())
+                .unlockedBy("has_granite", has(Blocks.GRANITE))
+                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "granite_brick_wall_from_stonecutting_from_granite"));
+//cut polished granite wall from cut polished granite stonecutting
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICK_WALL.get())
+                .unlockedBy("has_polished_granite", has(Blocks.POLISHED_GRANITE))
+                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "granite_brick_wall_from_stonecutting_from_polished_granite"));
+
+
+
+
+
+
+
+
+
+
+
+
+
         /*ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.POLISHED_DEEPSLATE_BUTTON.get())
                 .requires(Blocks.POLISHED_DEEPSLATE)
                 .unlockedBy("has_polished_deepslate", has(Blocks.POLISHED_DEEPSLATE))

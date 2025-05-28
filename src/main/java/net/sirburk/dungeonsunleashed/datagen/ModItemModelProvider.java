@@ -24,6 +24,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("granite_brick_stairs", modLoc("block/granite_brick_stairs"));
         withExistingParent("granite_brick_slab", modLoc("block/granite_brick_slab"));
         withExistingParent("granite_brick_wall", modLoc("block/granite_brick_wall_inventory"));
+        withExistingParent("cut_polished_granite_stairs", modLoc("block/cut_polished_granite_stairs"));
+        withExistingParent("cut_polished_granite_slab", modLoc("block/cut_polished_granite_slab"));
+        withExistingParent("cut_polished_granite_wall", modLoc("block/cut_polished_granite_wall_inventory"));
+
+
+
         simpleItem(ModItems.VOID_POOL_BUCKET);
 
     }

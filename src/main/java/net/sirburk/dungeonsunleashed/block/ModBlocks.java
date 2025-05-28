@@ -19,20 +19,32 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, DungeonsUnleashed.MODID);
+
+    //cut polished granite
     public static final RegistryObject<Block> CUT_POLISHED_GRANITE = registerBlock("cut_polished_granite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.POLISHED_GRANITE)
                     .sound(SoundType.STONE).requiresCorrectToolForDrops()));
 
-    public static final RegistryObject<Block> GRANITE_BRICKS = registerBlock("granite_bricks",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRANITE)
-                    .sound(SoundType.STONE).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> CUT_POLISHED_GRANITE_SLAB = registerBlock("cut_polished_granite_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(ModBlocks.CUT_POLISHED_GRANITE.get())
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
-    public static final RegistryObject<Block> CRACKED_GRANITE_BRICKS = registerBlock("cracked_granite_bricks",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRANITE)
-                    .sound(SoundType.STONE).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> CUT_POLISHED_GRANITE_STAIRS = registerBlock("cut_polished_granite_stairs",
+            () -> new StairBlock(() -> ModBlocks.CUT_POLISHED_GRANITE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(ModBlocks.CUT_POLISHED_GRANITE.get())
+                            .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> CUT_POLISHED_GRANITE_WALL = registerBlock("cut_polished_granite_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(ModBlocks.CUT_POLISHED_GRANITE.get())
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE = registerBlock("seaweed_encrusted_cut_polished_granite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.POLISHED_GRANITE)
+                    .sound(SoundType.STONE).requiresCorrectToolForDrops()));
+
+    //granite bricks
+    public static final RegistryObject<Block> GRANITE_BRICKS = registerBlock("granite_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRANITE)
                     .sound(SoundType.STONE).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> GRANITE_BRICK_STAIRS = registerBlock("granite_brick_stairs",
@@ -47,6 +59,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> GRANITE_BRICK_WALL = registerBlock("granite_brick_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+//cracked granite bricks
+    public static final RegistryObject<Block> CRACKED_GRANITE_BRICKS = registerBlock("cracked_granite_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRANITE)
+                    .sound(SoundType.STONE).requiresCorrectToolForDrops()));
+
+
 
     public static final RegistryObject<LiquidBlock> VOID_POOL = BLOCKS.register("void_pool",
             () -> new LiquidBlock(ModFluids.SOURCE_VOID_POOL, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK)
