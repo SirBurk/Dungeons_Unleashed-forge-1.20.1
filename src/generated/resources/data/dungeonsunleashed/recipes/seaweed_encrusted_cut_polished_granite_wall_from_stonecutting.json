@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dungeonsunleashed:seaweed_encrusted_cut_polished_granite"
+  },
+  "result": "dungeonsunleashed:seaweed_encrusted_cut_polished_granite_wall"
+}

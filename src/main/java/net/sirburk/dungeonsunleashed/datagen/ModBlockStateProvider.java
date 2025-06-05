@@ -29,10 +29,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.CRACKED_GRANITE_BRICKS);
         blockWithItem(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE);
 
+//seaweed encrusted cut polished granite
+        slabBlock((SlabBlock) ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE_SLAB.get(), blockLoc(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE),
+                blockLoc(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE));
+
+        stairsBlock((StairBlock) ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE_STAIRS.get(), blockLoc(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE));
+
+        modWallBlock(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE_WALL, blockLoc(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE));
 
 //granite brick
         slabBlock((SlabBlock) ModBlocks.GRANITE_BRICK_SLAB.get(), blockLoc(ModBlocks.GRANITE_BRICKS),
-        blockLoc(ModBlocks.GRANITE_BRICKS));
+                blockLoc(ModBlocks.GRANITE_BRICKS));
 
         stairsBlock((StairBlock) ModBlocks.GRANITE_BRICK_STAIRS.get(), blockLoc(ModBlocks.GRANITE_BRICKS));
 
@@ -45,6 +52,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock((StairBlock) ModBlocks.CUT_POLISHED_GRANITE_STAIRS.get(), blockLoc(ModBlocks.CUT_POLISHED_GRANITE));
 
         modWallBlock(ModBlocks.CUT_POLISHED_GRANITE_WALL, blockLoc(ModBlocks.CUT_POLISHED_GRANITE));
+
+//cracked granite bricks
+        slabBlock((SlabBlock) ModBlocks.CRACKED_GRANITE_BRICK_SLAB.get(), blockLoc(ModBlocks.CRACKED_GRANITE_BRICKS),
+                blockLoc(ModBlocks.CRACKED_GRANITE_BRICKS));
+
+        stairsBlock((StairBlock) ModBlocks.CRACKED_GRANITE_BRICK_STAIRS.get(), blockLoc(ModBlocks.CRACKED_GRANITE_BRICKS));
+
+        modWallBlock(ModBlocks.CRACKED_GRANITE_BRICK_WALL, blockLoc(ModBlocks.CRACKED_GRANITE_BRICKS));
 
     }
     private void trapDoorBlockItem(RegistryObject<Block> blockRegistryObject, String appendix) {

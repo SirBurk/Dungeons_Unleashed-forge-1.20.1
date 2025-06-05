@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "dungeonsunleashed:cut_polished_granite_slab",
+                  "block": "dungeonsunleashed:cracked_granite_brick_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,11 +25,11 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "dungeonsunleashed:cut_polished_granite_slab"
+          "name": "dungeonsunleashed:cracked_granite_brick_slab"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dungeonsunleashed:cut_polished_granite_slab"
+  "random_sequence": "dungeonsunleashed:cracked_granite_brick_slab"
 }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "dungeonsunleashed:cracked_granite_bricks"
+  },
+  "result": "dungeonsunleashed:cracked_granite_brick_slab"
+}

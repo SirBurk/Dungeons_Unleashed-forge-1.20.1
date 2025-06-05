@@ -3,15 +3,17 @@
   "category": "building",
   "key": {
     "A": {
-      "item": "minecraft:polished_granite_slab"
+      "item": "dungeonsunleashed:cracked_granite_bricks"
     }
   },
   "pattern": [
+    "A  ",
+    "AA ",
     "AAA"
   ],
   "result": {
-    "count": 2,
-    "item": "dungeonsunleashed:cut_polished_granite"
+    "count": 6,
+    "item": "dungeonsunleashed:cracked_granite_brick_stairs"
   },
   "show_notification": true
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side_tall",
+  "textures": {
+    "wall": "dungeonsunleashed:block/seaweed_encrusted_cut_polished_granite"
+  }
+}

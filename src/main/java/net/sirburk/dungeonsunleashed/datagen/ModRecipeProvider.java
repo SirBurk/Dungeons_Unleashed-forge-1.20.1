@@ -110,10 +110,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICK_WALL.get())
                 .unlockedBy("has_polished_granite", has(Blocks.POLISHED_GRANITE))
                 .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "granite_brick_wall_from_stonecutting_from_polished_granite"));
- //cut polished granite from polished granite slabs crafting
+//cut polished granite slabs from cut polished granite crafting
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CUT_POLISHED_GRANITE.get(),2)
-                .pattern("AA ")
-                .pattern("AA ")
+                .pattern("AAA")
                 .define('A', Blocks.POLISHED_GRANITE_SLAB)
                 .unlockedBy("has_polished_granite", has(Blocks.POLISHED_GRANITE))
                 .save(consumer);
@@ -145,8 +144,73 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_polished_granite", has(Blocks.POLISHED_GRANITE))
                 .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "cut_polished_granite_brick_wall_from_stonecutting_from_polished_granite"));
 
+//cracked granite brick stairs from cracked granite bricks stonecutting
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CRACKED_GRANITE_BRICKS.get()), RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_GRANITE_BRICK_STAIRS.get())
+                .unlockedBy("has_cracked_granite_bricks", has(ModBlocks.CRACKED_GRANITE_BRICKS.get()))
+                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "cracked_granite_brick_stairs_from_stonecutting"));
+//cracked granite brick stair from cracked granite bricks crafting
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_GRANITE_BRICK_STAIRS.get(),6)
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', ModBlocks.CRACKED_GRANITE_BRICKS.get())
+                .unlockedBy("has_cracked_granite_bricks", has(ModBlocks.CRACKED_GRANITE_BRICKS.get()))
+                .save(consumer);
+//cracked granite brick slab from cracked granite bricks stonecutting
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CRACKED_GRANITE_BRICKS.get()), RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_GRANITE_BRICK_SLAB.get(),2)
+                .unlockedBy("has_cracked_granite_bricks", has(ModBlocks.CRACKED_GRANITE_BRICKS.get()))
+                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "cracked_granite_brick_slab_from_stonecutting"));
+//cracked granite brick slab from cracked granite bricks crafting
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_GRANITE_BRICK_SLAB.get(), 6)
+                .pattern("AAA")
+                .define('A', ModBlocks.CRACKED_GRANITE_BRICKS.get())
+                .unlockedBy("has_cracked_granite_bricks", has(ModBlocks.CRACKED_GRANITE_BRICKS.get()))
+                .save(consumer);
+//cracked granite brick wall from granite bricks crafting
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_GRANITE_BRICK_WALL.get(),6)
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModBlocks.CRACKED_GRANITE_BRICKS.get())
+                .unlockedBy("has_cracked_granite_bricks", has(ModBlocks.CRACKED_GRANITE_BRICKS.get()))
+                .save(consumer);
+//cracked granite brick wall from granite bricks stonecutting
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.CRACKED_GRANITE_BRICKS.get()), RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRACKED_GRANITE_BRICK_WALL.get())
+                .unlockedBy("has_cracked_granite_bricks", has(ModBlocks.CRACKED_GRANITE_BRICKS.get()))
+                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "cracked_granite_brick_wall_from_stonecutting"));
 
-
+//seaweed encrusted cut polished granite stairs from seaweed encrusted cut polished granite stonecutting
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE.get()), RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE_STAIRS.get())
+                .unlockedBy("has_seaweed_encrusted_cut_polished_granite", has(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE.get()))
+                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "seaweed_encrusted_cut_polished_granite_stairs_from_stonecutting"));
+//seaweed encrusted cut polished granite stairs from seaweed encrusted cut polished granite crafting
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE_STAIRS.get(),6)
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .define('A', ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE.get())
+                .unlockedBy("has_seaweed_encrusted_cut_polished_granite", has(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE.get()))
+                .save(consumer);
+//seaweed encrusted cut polished granite slab from seaweed encrusted cut polished granite stonecutting
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE.get()), RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE_SLAB.get(),2)
+                .unlockedBy("has_seaweed_encrusted_cut_polished_granite", has(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE.get()))
+                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "seaweed_encrusted_cut_polished_granite_slab_from_stonecutting"));
+//seaweed encrusted cut polished granite slab from seaweed encrusted cut polished granite crafting
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE_SLAB.get(), 6)
+                .pattern("AAA")
+                .define('A', ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE.get())
+                .unlockedBy("has_seaweed_encrusted_cut_polished_granite", has(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE.get()))
+                .save(consumer);
+//seaweed encrusted cut polished granite wall from seaweed encrusted cut polished granite crafting
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE_WALL.get(),6)
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE.get())
+                .unlockedBy("has_seaweed_encrusted_cut_polished_granite", has(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE.get()))
+                .save(consumer);
+//seaweed encrusted cut polished granite wall from seaweed encrusted cut polished granite stonecutting
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE.get()), RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE_WALL.get())
+                .unlockedBy("has_seaweed_encrusted_cut_polished_granite", has(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE.get()))
+                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "seaweed_encrusted_cut_polished_granite_wall_from_stonecutting"));
 
 
 

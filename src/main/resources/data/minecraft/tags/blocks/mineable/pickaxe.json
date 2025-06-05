@@ -5,11 +5,21 @@
     "dungeonsunleashed:cut_polished_granite_stairs",
     "dungeonsunleashed:cut_polished_granite_slab",
     "dungeonsunleashed:cut_polished_granite_wall",
+
     "dungeonsunleashed:granite_bricks",
     "dungeonsunleashed:granite_brick_wall",
     "dungeonsunleashed:granite_brick_slab",
     "dungeonsunleashed:granite_brick_stairs",
+
     "dungeonsunleashed:cracked_granite_bricks",
-    "dungeonsunleashed:seaweed_encrusted_cut_polished_granite"
+    "dungeonsunleashed:cracked_granite_brick_wall",
+    "dungeonsunleashed:cracked_granite_bricks_slab",
+    "dungeonsunleashed:cracked_granite_bricks_stairs",
+
+    "dungeonsunleashed:seaweed_encrusted_cut_polished_granite",
+    "dungeonsunleashed:seaweed_encrusted_cut_polished_granite_wall",
+    "dungeonsunleashed:seaweed_encrusted_cut_polished_granite_slab",
+    "dungeonsunleashed:seaweed_encrusted_cut_polished_granite_stairs"
+
   ]
 }

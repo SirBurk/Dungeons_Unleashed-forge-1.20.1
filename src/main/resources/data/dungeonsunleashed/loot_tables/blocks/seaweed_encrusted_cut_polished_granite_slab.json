@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "dungeonsunleashed:cut_polished_granite_slab",
+                  "block": "dungeonsunleashed:seaweed_encrusted_cut_polished_granite_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,11 +25,11 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "dungeonsunleashed:cut_polished_granite_slab"
+          "name": "dungeonsunleashed:seaweed_encrusted_cut_polished_granite_slab"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dungeonsunleashed:cut_polished_granite_slab"
+  "random_sequence": "dungeonsunleashed:seaweed_encrusted_cut_polished_granite_slab"
 }
