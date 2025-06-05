@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dungeonsunleashed:block/cut_polished_granite_slab"
+    },
+    "type=double": {
+      "model": "dungeonsunleashed:block/cut_polished_granite"
+    },
+    "type=top": {
+      "model": "dungeonsunleashed:block/cut_polished_granite_slab_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "dungeonsunleashed:block/cut_polished_granite",
+    "side": "dungeonsunleashed:block/cut_polished_granite",
+    "top": "dungeonsunleashed:block/cut_polished_granite"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "dungeonsunleashed:block/cut_polished_granite"
+  }
+}
