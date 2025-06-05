@@ -1,4 +1,7 @@
-// 1.20.1	2024-07-20T21:26:23.7175682	Item Models: dungeonsunleashed
+// 1.20.1	2025-06-05T14:59:10.4999658	Item Models: dungeonsunleashed
+ed7039729e2dce301ddf925a49523cf63336f682 assets/dungeonsunleashed/models/item/cut_polished_granite_slab.json
+45c02bb7235041448da77afeb17abef549e5c9d5 assets/dungeonsunleashed/models/item/cut_polished_granite_stairs.json
+87427d52c0278032e6100efac3b0a47bd8e9e638 assets/dungeonsunleashed/models/item/cut_polished_granite_wall.json
 e800ffe1a0a058decc6b164e45f65d0b4e0e85ef assets/dungeonsunleashed/models/item/granite_brick_slab.json
 1b26ced8f402b6d238482af8d584f32351c48b7a assets/dungeonsunleashed/models/item/granite_brick_stairs.json
 5af09877ab90367a5a69bb02692efcbe7883354c assets/dungeonsunleashed/models/item/granite_brick_wall.json

@@ -120,15 +120,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 //cut polished granite wall from polished granite stonecutting
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.GRANITE_BRICKS.get()), RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICK_WALL.get())
                 .unlockedBy("has_granite_bricks", has(ModBlocks.GRANITE_BRICKS.get()))
-                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "granite_brick_wall_from_stonecutting"));
+                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "cut_polished_granite_brick_wall_from_stonecutting"));
 //cut polished granite wall from granite stonecutting
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.GRANITE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICK_WALL.get())
                 .unlockedBy("has_granite", has(Blocks.GRANITE))
-                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "granite_brick_wall_from_stonecutting_from_granite"));
+                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "cut_polished_granite_brick_wall_from_stonecutting_from_granite"));
 //cut polished granite wall from cut polished granite stonecutting
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(Blocks.POLISHED_GRANITE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRANITE_BRICK_WALL.get())
                 .unlockedBy("has_polished_granite", has(Blocks.POLISHED_GRANITE))
-                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "granite_brick_wall_from_stonecutting_from_polished_granite"));
+                .save(consumer, new ResourceLocation(DungeonsUnleashed.MODID, "cut_polished_granite_brick_wall_from_stonecutting_from_polished_granite"));
 
 
 
