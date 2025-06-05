@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dungeonsunleashed:cracked_granite_bricks"
+          "name": "dungeonsunleashed:cut_polished_granite_stairs"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dungeonsunleashed:cracked_granite_bricks"
+  "random_sequence": "dungeonsunleashed:cut_polished_granite_stairs"
 }

@@ -1,5 +1,7 @@
 {
   "replace": false,
   "values": [
-    "dungeonsunleashed:granite_brick_wall"  ]
+    "dungeonsunleashed:granite_brick_wall",
+    "dungeonsunleashed:cut_polished_granite_wall"
+  ]
 }

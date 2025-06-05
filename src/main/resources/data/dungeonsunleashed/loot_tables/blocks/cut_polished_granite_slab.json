@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "dungeonsunleashed:granite_brick_slab",
+                  "block": "dungeonsunleashed:cut_polished_granite_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -31,5 +31,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dungeonsunleashed:granite_brick_slab"
+  "random_sequence": "dungeonsunleashed:cut_polished_granite_slab"
 }

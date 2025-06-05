@@ -18,13 +18,21 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.CUT_POLISHED_GRANITE.get()))
                     .title(Component.literal("Dungeons Unleashed Tab"))
                     .displayItems((displayParameters, output) -> {
-                        output.accept(ModBlocks.CUT_POLISHED_GRANITE.get());
                         output.accept(ModBlocks.GRANITE_BRICKS.get());
                         output.accept(ModBlocks.GRANITE_BRICK_STAIRS.get());
                         output.accept(ModBlocks.GRANITE_BRICK_SLAB.get());
                         output.accept(ModBlocks.GRANITE_BRICK_WALL.get());
                         output.accept(ModBlocks.CRACKED_GRANITE_BRICKS.get());
+                        output.accept(ModBlocks.CUT_POLISHED_GRANITE.get());
+                        output.accept(ModBlocks.CUT_POLISHED_GRANITE_STAIRS.get());
+                        output.accept(ModBlocks.CUT_POLISHED_GRANITE_SLAB.get());
+                        output.accept(ModBlocks.CUT_POLISHED_GRANITE_WALL.get());
                         output.accept(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE.get());
+                        output.accept(ModBlocks.GRANITE_BRICKS.get());
+                        output.accept(ModBlocks.GRANITE_BRICK_STAIRS.get());
+                        output.accept(ModBlocks.GRANITE_BRICK_SLAB.get());
+                        output.accept(ModBlocks.GRANITE_BRICK_WALL.get());
+                        output.accept(ModBlocks.CRACKED_GRANITE_BRICKS.get());
                         output.accept(ModItems.VOID_POOL_BUCKET.get());
 
                     }).build());
