@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_granite": {
+    "has_granite_tile": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:granite"
+              "dungeonsunleashed:granite_tile"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dungeonsunleashed:cut_polished_granite_brick_from_stonecutting_from_granite"
+        "recipe": "dungeonsunleashed:granite_tile_stairs"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_granite",
+      "has_granite_tile",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "dungeonsunleashed:cut_polished_granite_brick_from_stonecutting_from_granite"
+      "dungeonsunleashed:granite_tile_stairs"
     ]
   },
   "sends_telemetry_event": false

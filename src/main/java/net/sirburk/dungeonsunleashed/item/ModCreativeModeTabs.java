@@ -44,6 +44,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.CRACKED_GRANITE_BRICK_STAIRS.get());
                         output.accept(ModBlocks.CRACKED_GRANITE_BRICKS.get());
 
+                        output.accept(ModBlocks.GRANITE_TILE.get());
+                        output.accept(ModBlocks.GRANITE_TILE_STAIR.get());
+                        output.accept(ModBlocks.GRANITE_TILE_SLAB.get());
+                        output.accept(ModBlocks.GRANITE_TILE_WALL.get());
+
+                        output.accept(ModBlocks.CHISELED_GRANITE.get());
+
+
                         output.accept(ModItems.VOID_POOL_BUCKET.get());
 
                     }).build());

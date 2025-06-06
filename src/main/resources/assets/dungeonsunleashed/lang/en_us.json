@@ -19,6 +19,13 @@
   "block.dungeonsunleashed.seaweed_encrusted_cut_polished_granite_slab": "Seaweed Encrusted Cut Polished Granite Slab",
   "block.dungeonsunleashed.seaweed_encrusted_cut_polished_granite_wall": "Seaweed Encrusted Cut Polished Granite Wall",
 
+  "block.dungeonsunleashed.granite_tile": "Granite Tile",
+  "block.dungeonsunleashed.granite_tile_slab": "Granite Tile Slab",
+  "block.dungeonsunleashed.granite_tile_stairs": "Granite Tile Stair",
+  "block.dungeonsunleashed.granite_tile_wall": "Granite Tile Wall",
+
+  "block.dungeonsunleashed.chiseled_granite": "Chiseled Granite",
+
   "item.dungeonsunleashed.void_pool_bucket": "Void Pool Bucket"
 
 

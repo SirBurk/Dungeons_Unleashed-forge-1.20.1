@@ -19,7 +19,16 @@
     "dungeonsunleashed:seaweed_encrusted_cut_polished_granite",
     "dungeonsunleashed:seaweed_encrusted_cut_polished_granite_wall",
     "dungeonsunleashed:seaweed_encrusted_cut_polished_granite_slab",
-    "dungeonsunleashed:seaweed_encrusted_cut_polished_granite_stairs"
+    "dungeonsunleashed:seaweed_encrusted_cut_polished_granite_stairs",
+
+    "dungeonsunleashed:granite_tiles",
+    "dungeonsunleashed:granite_tile_stairs",
+    "dungeonsunleashed:granite_tile_slab",
+    "dungeonsunleashed:granite_tile_wall",
+
+    "dungeonsunleashed:chiseled_granite"
+
+
 
   ]
 }

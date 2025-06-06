@@ -28,6 +28,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.GRANITE_BRICKS);
         blockWithItem(ModBlocks.CRACKED_GRANITE_BRICKS);
         blockWithItem(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE);
+        blockWithItem(ModBlocks.GRANITE_TILE);
+        blockWithItem(ModBlocks.CHISELED_GRANITE);
 
 //seaweed encrusted cut polished granite
         slabBlock((SlabBlock) ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE_SLAB.get(), blockLoc(ModBlocks.SEAWEED_ENCRUSTED_CUT_POLISHED_GRANITE),
@@ -60,6 +62,26 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock((StairBlock) ModBlocks.CRACKED_GRANITE_BRICK_STAIRS.get(), blockLoc(ModBlocks.CRACKED_GRANITE_BRICKS));
 
         modWallBlock(ModBlocks.CRACKED_GRANITE_BRICK_WALL, blockLoc(ModBlocks.CRACKED_GRANITE_BRICKS));
+
+//granite tile
+        slabBlock((SlabBlock) ModBlocks.GRANITE_TILE_SLAB.get(), blockLoc(ModBlocks.GRANITE_TILE),
+                blockLoc(ModBlocks.GRANITE_TILE));
+
+        stairsBlock((StairBlock) ModBlocks.GRANITE_TILE_STAIR.get(), blockLoc(ModBlocks.GRANITE_TILE));
+
+        modWallBlock(ModBlocks.GRANITE_TILE_WALL, blockLoc(ModBlocks.GRANITE_TILE));
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
     private void trapDoorBlockItem(RegistryObject<Block> blockRegistryObject, String appendix) {

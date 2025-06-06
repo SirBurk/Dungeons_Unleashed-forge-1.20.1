@@ -92,6 +92,48 @@ public class ModBlocks {
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+//granite tile
+    public static final RegistryObject<Block> GRANITE_TILE = registerBlock("granite_tile",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.POLISHED_GRANITE)
+                    .sound(SoundType.STONE).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> GRANITE_TILE_SLAB = registerBlock("granite_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(ModBlocks.GRANITE_TILE.get())
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> GRANITE_TILE_STAIR = registerBlock("granite_tile_stairs",
+            () -> new StairBlock(() -> ModBlocks.GRANITE_TILE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(ModBlocks.GRANITE_TILE.get())
+                            .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> GRANITE_TILE_WALL = registerBlock("granite_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(ModBlocks.GRANITE_TILE.get())
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+//chiseled granite
+    public static final RegistryObject<Block> CHISELED_GRANITE = registerBlock("chiseled_granite",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.POLISHED_GRANITE)
+                    .sound(SoundType.STONE).requiresCorrectToolForDrops()));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     public static final RegistryObject<LiquidBlock> VOID_POOL = BLOCKS.register("void_pool",
             () -> new LiquidBlock(ModFluids.SOURCE_VOID_POOL, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK)

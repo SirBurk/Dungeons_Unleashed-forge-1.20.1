@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dungeonsunleashed:cut_polished_granite"
+  },
+  "result": "dungeonsunleashed:cut_polished_granite_stairs"
+}

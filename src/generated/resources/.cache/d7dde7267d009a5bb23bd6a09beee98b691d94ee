@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-05T17:58:12.4172407	Item Models: dungeonsunleashed
+// 1.20.1	2025-06-05T20:32:08.3258042	Item Models: dungeonsunleashed
 744d4cd950f4119cd9e4ef80e46109d06e361501 assets/dungeonsunleashed/models/item/cracked_granite_brick_slab.json
 272109a3945964a0b0b6cb05e0dacb33e362fc37 assets/dungeonsunleashed/models/item/cracked_granite_brick_stairs.json
 39927c2ddfe8c46f78931857bdebfa5679010776 assets/dungeonsunleashed/models/item/cracked_granite_brick_wall.json
@@ -8,6 +8,9 @@ ed7039729e2dce301ddf925a49523cf63336f682 assets/dungeonsunleashed/models/item/cu
 e800ffe1a0a058decc6b164e45f65d0b4e0e85ef assets/dungeonsunleashed/models/item/granite_brick_slab.json
 1b26ced8f402b6d238482af8d584f32351c48b7a assets/dungeonsunleashed/models/item/granite_brick_stairs.json
 5af09877ab90367a5a69bb02692efcbe7883354c assets/dungeonsunleashed/models/item/granite_brick_wall.json
+950e21a38a7290b7777fca6a566d3483f72c5aa2 assets/dungeonsunleashed/models/item/granite_tile_slab.json
+e65b4dcb7a211b4e92f66b3c3011832150855ff6 assets/dungeonsunleashed/models/item/granite_tile_stairs.json
+baf73bffac72e1ef619b3ff1c0e1dfb855e7799e assets/dungeonsunleashed/models/item/granite_tile_wall.json
 f59ec134d00a2ab4307c22b1ce9f5b545d2cf772 assets/dungeonsunleashed/models/item/seaweed_encrusted_cut_polished_granite_slab.json
 00b5cc1b0ef807f371f810c02271173d2cbf7353 assets/dungeonsunleashed/models/item/seaweed_encrusted_cut_polished_granite_stairs.json
 be4ceff807726ef59a0cdff86fb85063e2acee01 assets/dungeonsunleashed/models/item/seaweed_encrusted_cut_polished_granite_wall.json
